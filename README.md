@@ -5,7 +5,7 @@ Easy, pipe friendly parent directory navigation. A bit like [vim-easymotion](htt
 
 Written in Python and works with both Python 2 and 3.
 
-Inpsired by [zipline](https://github.com/adamnemecek/zipline) as [posted on Reddit](https://www.reddit.com/r/commandline/comments/50i6xf/zipline_the_cd_companion_utility_youve_always/).
+Inspired by [zipline](https://github.com/adamnemecek/zipline) as [posted on Reddit](https://www.reddit.com/r/commandline/comments/50i6xf/zipline_the_cd_companion_utility_youve_always/).
 
 Usage
 -----
@@ -28,7 +28,7 @@ $ pwd
 /home
 ```
 
-When no arguments are provided the numbered display is written to `stderr` but the current working directory is written to `stdout` (as a sane default). When a number argument is provided then appropriately trimmed path is written to `stdout`. This facilitates piping to other programs.
+When no arguments are provided the numbered display is written to `stderr` but the current working directory is written to `stdout` (as a sane default). When a number argument is provided then the appropriately trimmed path is written to `stdout`. This facilitates piping to other programs.
 
 Installation
 ------------
